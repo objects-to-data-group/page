@@ -3965,6 +3965,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
+    font-size: 13px;
   }
   .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
@@ -6276,6 +6277,7 @@ a:focus {
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
+    font-size: 13px;
 }
 
 .navbar-custom .navbar-brand:focus {
