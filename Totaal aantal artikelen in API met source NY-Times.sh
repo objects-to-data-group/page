@@ -1,6 +1,6 @@
 baseurl="http://api.nytimes.com/svc/search/v2/articlesearch.json"
 
-key="e011d3c8dfcd2c63f5465ecd97c02526:14:69382243"
+key="plak hier je eigen key"
 query=""
 field="source"
 search_field="The+New+York+Times"
