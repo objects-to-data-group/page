@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Decennium', 'Totaal aantal artikelen "Humanities"(x10)', 'Aantal voorpagina artikelen'],
+          ['1850',  1.5,      3],
+          ['1860',  3.7,      2],
+          ['1870',  2.0,      6],
+          ['1880',  3.4,      1],
+          ['1890',  5.2,      3],
+          ['1900',  8.5,      3],
+          ['1910',  8.6,      5],
+          ['1920',  20.7,      6],
+          ['1930',  47.4,      14],
+          ['1940',  59.7,      17],
+          ['1950',  112.8,      49],
+          ['1960',  179.5,      80],
+          ['1970',  259.6,      88],
+          ['1980',  277.9,      69],
+          ['1990',  195.7,      55],
+          ['2000',  191.3,      30],
+          ['2010',  118.8,      6]
+        ]);
+
+        var options = {
+          title: 'Aantal "Humanities" artikelen in dataset(Script 2)',
+          hAxis: {title: 'Decennium',  titleTextStyle: {color: '#333'}},
+          vAxis: {minValue: 0}
+        };
+
+        var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Decennium', '%'],
+          ['1850',  20],
+          ['1860',  5],
+          ['1870',  30],
+          ['1880',  2],
+          ['1890',  5],
+          ['1900',  3],
+          ['1910',  5],
+          ['1920',  2],
+          ['1930',  2],
+          ['1940',  2],
+          ['1950',  4],
+          ['1960',  4],
+          ['1970',  3],
+          ['1980',  2],
+          ['1990',  2],
+          ['2000',  1],
+          ['2010',  0]
+        ]);
+
+        var options = {
+          title: 'Percentage voorpagina artikelen van totaal aantal artikelen(Script 2)',
+          hAxis: {title: 'Decennium',  titleTextStyle: {color: '#333'}},
+          vAxis: {minValue: 0}
+        };
+
+        var chart = new google.visualization.AreaChart(document.getElementById('chart2_div'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+<div id="chart2_div" style="width: 900px; height: 500px;"></div>
+  </body>
+
+</html>
