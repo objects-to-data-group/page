@@ -6214,8 +6214,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #ddd;
-    background-color: #000;
+    color: #333;
+    background-color: #fff;
 }
 
 html {
@@ -6232,7 +6232,7 @@ h6 {
     color: inherit;
     margin: 0 0 20px;
     text-transform: uppercase;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -6271,10 +6271,10 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: 10px solid rgba(128,128,128,.9);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+    background-color: #fff;
 }
 
 .navbar-custom .navbar-brand {
@@ -6289,7 +6289,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
+    color: #333;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -6298,12 +6298,12 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #333;
 }
 
 .navbar-custom .nav li.active {
-    outline: nonte;
-    background-color: rgba(255,255,255,.3);
+    outline: none;
+    background-color: rgba(128,128,128,.6);
 }
 
 .navbar-custom .nav li a {
@@ -6316,7 +6316,7 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
     outline: 0;
-    background-color: rgba(255,255,255,.3);
+    background-color: rgba(128,128,128,.6);
 }
 
 @media(min-width:767px) {
@@ -6332,7 +6332,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #000;
+        background-color: #fff;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -6340,14 +6340,14 @@ a:focus {
     }
 }
 
-.intro {
+.intro-2 {
     display: table;
     width: 100%;
     height: auto;
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/intro-bg-2.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
