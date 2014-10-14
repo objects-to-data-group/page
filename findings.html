@@ -107,7 +107,7 @@
                     Instead we got together and tried to come up with a different research question. At least one we hoped would be a bit more of a challenge than our initial question.
                 </p>
                 <p class="text-left">  
-                    And so our virtual journey continued into the digital wonderland of an inconsistent API, a lot of <code>grep</code>, <code>wget</code>, <code>sed</code>, <code>AWK</code> and <code>jq</code>. 
+                    And so our virtual journey continued into the digital wonderland of an inconsistent API, a lot of <code>Grep</code>, <code>wget</code>, <code>sed</code>, <code>AWk</code> and <code>jq</code>. 
                 </p>
                 <img src="img/journey.jpg" alt="our fantastic five" class="img-responsive">
                 <p class="text-left">
@@ -129,11 +129,11 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Our Scripts:</h2>
                 <h3>New York Times Data Script</h3>
-                <div class="text-left code">
-                        <h4><code>New York Times Data Script</code></h4>
-                        <p><code>This script will perform different actions needed to accomplish it's goal. (wow, that's vague&hellip;)</code></p>
-                        <p><code>How to run <kbd>nytimesdata.sh</kbd></code></p>
-                        <ul><code>
+                <div class="text-left">
+                        <h4>New York Times Data Script</h4>
+                        <p>This script will perform different actions needed to accomplish it's goal. (wow, that's vague&hellip;)</p>
+                        <p>How to run <kbd>nytimesdata.sh</kbd></p>
+                        <ul>
                             <li>download the script;</li>
                             <li>place it in a convenient location on your computer;<ul>
                             <li>open Terminal and point the path towards the directory that contains the script;</li>
@@ -142,10 +142,10 @@
                             <li>type <kbd>./nytimesdata.sh</kbd> and hit the <kbd>Enter</kbd> key;</li>
                             <li>the script will run and do it's thing.</li>
                             </ul></li>
-                        </code></ul>
+                        </ul>
                         <br>
-                        <p><code>Issues</code></p>
-                        <ul><code>
+                        <p>Issues</p>
+                        <ul>
                             <li>Several issues that need addressing;<ul>
                                 <li>script exits when the directory exists;</li>
                                 <li>no <kbd>if</kbd> statements;</li>
@@ -153,63 +153,65 @@
                                 <li>many others...</li>
                             </ul><li>
                             Because of these problems somewhere in the world <a href="http://www.simonlovell.co.uk/wp-content/uploads/2013/02/save-kitten.jpg">a kitten dies.</a></li>
-                        </code></ul>
+                        </ul>
                 </div> 
                 <div>
                     <p>View and run the New York Times Data Script by <a href="scripts/nytimesdata.sh">downloading</a> it.</p> 
                 </div> 
+                <hr>
                 <h3>Script One</h3>
-                <div class="text-left code">
-                        <p><code>This script draws information from the NY-Times article-search API.</code></p> 
-                        <ul><code>
+                <div class="text-left">
+                        <p>This script draws information from the NY-Times article-search API.</p> 
+                        <ul>
                             <li>It defines the total number of news-items kept within the dataset that is attached to the API.</li>
                             <li>It defines the total number of front-page articles kept within the dataset that is attached to the API.</li>
                             <li>It defines the total number of 2000's news-items kept within the dataset that is attached to the API.</li>
                             <li>It defines the total number of 2000's front-page articles kept within the dataset that is attached to the API.</li>
                             <li>It prints the results into the command-line interface.</li>
-                        </code></ul>
+                        </ul>
                         <br>
-                        <p><code>Developments needed:</code></p>
-                        <p><code>Instead of the total number of ALL news-items it should rule out blogs, since those form a very specific type of news-item that only came into excistence over the last few decades. They do not form part of the actual newspaper. Or do they? Somebody willing to find out?</code></p>
-                        <p><code>Can someone figure out a way to show the results for each decade automatically?</code></p> 
+                        <p>Developments needed:</p>
+                        <p>Instead of the total number of ALL news-items it should rule out blogs, since those form a very specific type of news-item that only came into excistence over the last few decades. They do not form part of the actual newspaper. Or do they? Somebody willing to find out?</p>
+                        <p>Can someone figure out a way to show the results for each decade automatically?</p> 
                 </div>
                 <div>
                     <p>View and run Script One by <a href="scripts/script1.sh">downloading</a> it.</p>
                 </div>
+                <hr>
                 <h3>Script Two</h3>
-                <div class="text-left code">
-                    <p><code> 
+                <div class="text-left">
+                    <p> 
                         This script is the sum of multiple previous scripts from which the best scripting-solutions have remained and the broken or ugly (yes, we are judgemental)  bits have been thrown away. The output of the original scripts was meant to help us get a more detailed look into the spread of Humanities front page articles viewed over different kinds of time-periods. 
-                    </code></p> 
-                    <p><code>
+                    </p> 
+                    <p>
                         When writing the script we where still under the impression that only articles that had "The New York Times" as source where actually published in the NYT. Now we know this is not the case, as New York Times sometimes (re)publishes articles written by other news agencies. We've kept NYT as a selected in the script though, since we value originality but more importantly, it is one of the 'scars' that shows our learning curve. In the end, the script now shows:
-                    </code></p> 
-                    <ul><code>
+                    </p> 
+                    <ul>
                         <li>Percentage of Humanities articles on the front page of The New York Times per decade</li>
                         <li>Avarage percentage of Humanities articles on the front page of The New York Times per month</li>
                         <li>Avarage percentage of Humanities articles on the front page of The New York Times per day of the month.</li>
-                    </code></ul> 
-                    <p><code>
+                    </ul> 
+                    <p>
                         Although the graphs appear to show some interesting things; May and October aren't popular humanity-months (1), the 10th and 15th of each month seem a bad time to publish a Humanities article if it is your goal to reach the front page (2), it is hard to say that any of these differences are valid and significant. The most eye-catching results are the high percentages of front-page articles during the 1850's and 1870's (graph 1) can easily be discredited once we look at the low amount of articles published in total during those decades. In short, we still need to spend more time on interpreting our results. 
-                    </code></p>                        
+                    </p>                        
                 </div>
                 <div>
                     <p>View and run Script Two by <a href="scripts/script2.sh">downloading</a> it.</p>
-                </div> 
+                </div>
+                <hr>
                 <h3>Script Seven</h3>
-                <div class="text-left code">
-                    <p><code> 
+                <div class="text-left">
+                    <p> 
                         This scripts extracts the total amount of articles and front-page of 2 free-to-choose articles directly from the API. The scripts however, stops working after the 1980's since the data-field which houses the front-page indication is then shifted. Since the new data-field is ridiculously parsed as a string by the API, the API won't allow us to do a valid search. Therefor, the entire dataset from the two queries is downloaded into .JSON files and searched with some help of JQ.
-                    </code></p> 
-                    <p><code>
+                    </p> 
+                    <p>
                         However, since the dataset of 'Science' is too big to download in one go, the script now uses to ready-made .JSON files. Otherwise, we would still be sitting here tomorrow... the exemplary and ready-made .JSON files will be delivered alongside the scripts in our final product.  
-                    </code></p> 
-                    <p><code>
-                        Now, let's take a look at the wonderful results
-                    </code></p>  
+                    </p>  
                 </div>
                 <div>
                     <p>View and run Script Seven by <a href="scripts/script7.sh">downloading</a> it.</p>
+                <hr>
+                    <p>Now, let's take a look at the wonderful results</p> 
                 </div>   
             </div>
         </div>
@@ -219,7 +221,7 @@
     <section id="visuals" class="container content-section text-center">
         <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                <h2>Finding number One</h2>
+                <h2>Finding numer One</h2>
                 <h3>The difference between the Science vs Humanites Articles in the New York Times</h3>  
             </div>
             <div class="col-lg-12">
@@ -228,7 +230,7 @@
                 </div> 
             </div>
                 <div class="col-lg-8 col-lg-offset-2">
-                <h2>Finding number Two</h2>
+                <h2>Finding numer Two</h2>
                 <h3>Percentage of science vs humanities articles on the Front page of the New York Times</h3>  
             </div>
             <div class="col-lg-12">
