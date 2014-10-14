@@ -55,3 +55,6 @@ div.code {
     margin-bottom: 10px;
     background-color: #f9f2f4;
 }
+div.col-lg-12 {
+    margin-bottom: 100px;
+}
